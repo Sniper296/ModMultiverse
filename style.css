@@ -1,0 +1,145 @@
+html {
+	height: 100vh;
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+}
+
+body {
+	background: #333;
+	color: rgba(255, 255, 255, 0.85);
+	font: 2vh/1.4 'Roboto Mono', monospace;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 0 -1px 0 #333;
+}
+
+header {
+	padding: 1em 10vw;
+	scroll-snap-align: start;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-weight: unset;
+	margin: 0;
+}
+
+*|*:link {
+	color: unset;
+}
+
+section {
+	align-items: center;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	padding: 0 10vw;
+	scroll-snap-align: start;
+}
+
+section > div {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 1em 2em;
+}
+
+#intro {
+	background-image: url(1.jpg);
+}
+
+li {
+	list-style-type: none;
+}
+
+#one {
+	background-image: url(2.jpg);
+}
+
+ol {
+	padding: 0;
+}
+
+#two {
+	background-image: url(3.jpg);
+}
+
+dd {
+	margin: 0;
+}
+
+#three {
+	background-image: url(4.jpg);
+}
+
+#join {
+	background-image: url(5.jpg);
+}
+
+#join > div {
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: column;
+	height: calc(100vh - 2em);
+	justify-content: center;
+	width: 80vw;
+}
+
+#NOTidentityTheft {
+	grid-gap: 4px;
+	grid-template-columns: repeat(12, 1fr);
+	display: grid;
+	overflow-y: scroll;
+}
+
+#NOTidentityTheft label {
+	font-size: 0.8em;
+	grid-column: 4 / span 2;
+	text-align: right;
+}
+
+#NOTidentityTheft input {
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	color: inherit;
+	grid-column: 6 / span 4;
+	width: unset;
+}
+
+#NOTidentityTheft input:focus {
+	border: 1px solid 
+	white;
+}
+
+#NOTidentityTheft button {
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	color: inherit;
+	padding: 2px 4px;
+}
+
+#NOTidentityTheft button:focus {
+	border: 1px solid 
+	white;
+}
+
+.gridCol2 {
+	grid-column-start: 2;
+}
+
+.gridCol4 {
+	grid-column-start: 4;
+}
+
+.gridCol6 {
+	grid-column-start: 6;
+}
+
+.gridSpan2 {
+	grid-column-end: span 2;
+}
+
+footer {
+	padding: 1em 10vw;
+	scroll-snap-align: start;
+}
