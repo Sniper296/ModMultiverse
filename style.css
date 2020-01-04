@@ -6,7 +6,7 @@ html {
 
 body {
 	background: #333;
-	color: rgba(255, 255, 255, 0.85);
+	color: rgba(255, 255, 255, 0.9);
 	font: 2vh/1.4 'Roboto Mono', monospace;
 	margin: 0 auto;
 	text-align: center;
@@ -45,7 +45,7 @@ section > div {
 }
 
 #intro {
-	background-image: url(1.jpg);
+	background-image: url(/ModMultiverse/1.jpg);
 }
 
 li {
@@ -53,7 +53,7 @@ li {
 }
 
 #one {
-	background-image: url(2.jpg);
+	background-image: url(/ModMultiverse/2.jpg);
 }
 
 ol {
@@ -61,7 +61,7 @@ ol {
 }
 
 #two {
-	background-image: url(3.jpg);
+	background-image: url(/ModMultiverse/3.jpg);
 }
 
 dd {
@@ -69,11 +69,15 @@ dd {
 }
 
 #three {
-	background-image: url(4.jpg);
+	background-image: url(/ModMultiverse/4.jpg);
+}
+
+#devs {
+	background-image: url(/ModMultiverse/5.jpg);
 }
 
 #join {
-	background-image: url(5.jpg);
+	background-image: url(/ModMultiverse/6.jpg);
 }
 
 #join > div {

@@ -1,0 +1,6 @@
+# Pointless since it is in a subdirectory, but fuck it!
+
+Sitemap: https://sniper296.github.io/ModMultiverse/sitemap.xml
+
+User-agent: *
+Allow: /ModMultiverse/
